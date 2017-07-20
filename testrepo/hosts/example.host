@@ -1,0 +1,7 @@
+roles:
+  - devel
+  - openssh-server
+
+policy:
+  openssh-server:
+    permit-root-login: true

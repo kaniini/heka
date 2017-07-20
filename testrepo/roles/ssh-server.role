@@ -1,0 +1,8 @@
+packages:
+  - openssh-server
+
+services:
+  sshd:
+    runlevel: boot
+
+# XXX: decide how to process policy objects
